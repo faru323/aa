@@ -1,0 +1,19 @@
+@mixin buttons($bg-color, $border, $border-color, $text-color) {
+    padding: 19px 50px;
+    border-radius: 8px;
+    background-color: $bg-color;
+    border: $border solid $border-color;
+    color: $text-color;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .6s;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: .6s;
+    }
+}

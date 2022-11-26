@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+    nav{
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+            background-color: #3B3B3B;
+            &__left{
+                margin-left: 50px;
+                img{
+                    object-fit: cover;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+           
+            &__right{
+                margin-left: 30px;
+                margin-right: 50px;
+                &__content{
+                    color: white;
+                    list-style-type: none;
+                    &__item{
+                        margin-left: 40px;
+                        font-weight: 600;
+                        display: inline;
+                        list-style:none;
+                      
+                        
+
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            .differentBtn{
+                                background-color:#A259FF;
+                                width: 150px;
+                               
+                             
+                                img{
+                                    
+                                    object-fit: fill;
+                                }
+                            }
+                           button{
+                            
+                            width: 200px;
+                            border-radius: 20px;
+                            border: none;
+                            color: white;
+                            background-color: transparent;
+                            height: 60px;
+                            transition: transform 0.5s;
+                            padding: 20px;
+                           
+                        
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(0.95, 0.95);
+                            }
+                           }
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(10%,10%);
+                            }
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            transform: scale(10%,10%);
+                        }
+                    }
+                }
+
+            }
+        }
+    
+    }
+   
+}
