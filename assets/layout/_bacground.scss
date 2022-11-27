@@ -7,35 +7,36 @@
   background-position: 100%;
   background-size: 100%;
   position: relative;
-  
 
   &__content {
     padding-top: 30%;
     padding-left: 15%;
-    .timer{
-        position: absolute;
-        width: 300px;
-        margin-left: 60%;
-        height:150px;
-        border-radius: 20px;
-        border: solid 1px black;
-       bottom: 6%;
-       background-color: black;
-       opacity: 0.3;
-       left:10%;
-        &__content{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-            border: solid 2px black;
-    
+    .timer {
+      position: absolute;
+      width: 300px;
+      margin-left: 60%;
+      height: 150px;
+      border-radius: 20px;
+      border: solid 1px black;
+      bottom: 6%;
+      background-color: black;
+      opacity: 0.3;
+      left: 10%;
+
+      &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px black;
+        h1 {
+          z-index: 999;
         }
-    
-       }
-    
+      }
+    }
+
     .seeNft {
       margin-top: 20px;
-     
+
       transition-duration: 0.6s;
       background-color: white;
       a {
@@ -90,8 +91,4 @@
       }
     }
   }
- 
-
-
-
 }
