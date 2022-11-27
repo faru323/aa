@@ -1,0 +1,38 @@
+.topCreators {
+  .container {
+    background-color: #2B2B2B;    ;
+     display: flex;
+     justify-content: space-around;
+    .card {
+      display: flex;
+     flex-direction: column;
+     background-color: #3b3b3b;
+      
+       border-radius: 10px;
+      width: 240px;
+      height: 200px;
+      transition-duration: 0.6s;
+     
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+      &:hover{
+        cursor: pointer;
+        transform:scale(0.95,0.95);
+      }
+     
+      img {
+        
+         width:5%;
+          height: 50px;
+        }
+        .card_content {
+            h4{
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                color: white;
+            }
+         
+        }
+      }
+    }
+  }
