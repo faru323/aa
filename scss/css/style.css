@@ -71,42 +71,124 @@
   transform: scale(10%, 10%);
 }
 
-.topCreators .container {
+.topCreators {
   background-color: #2b2b2b;
-  display: flex;
-  justify-content: space-around;
+  height: 150vh;
 }
-.topCreators .container .card {
+.topCreators .container .cardV1 {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+}
+.topCreators .container .cardV1 .card {
   display: flex;
   flex-direction: column;
   background-color: #3b3b3b;
-  float: left;
   border-radius: 10px;
-  width: 240px;
+  width: 22%;
   height: 200px;
   transition-duration: 0.6s;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
-.topCreators .container .card:hover {
+.topCreators .container .cardV1 .card:hover {
   cursor: pointer;
   transform: scale(0.95, 0.95);
 }
-.topCreators .container .card img {
+.topCreators .container .cardV1 .card img {
   width: 120px;
   height: 120px;
   margin: auto;
 }
-.topCreators .container .card .card__content {
+.topCreators .container .cardV1 .card .card__content {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   text-align: center;
 }
-.topCreators .container .card .card__content h4 {
+.topCreators .container .cardV1 .card .card__content h4 {
   color: white;
 }
-.topCreators .container .card .card__content p {
+.topCreators .container .cardV1 .card .card__content p {
   color: #9b9898;
+}
+.topCreators .container .cardV2 {
+  padding-top: 30px;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+}
+.topCreators .container .cardV2 .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  width: 22%;
+  height: 230px;
+  transition-duration: 0.6s;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.topCreators .container .cardV2 .card:hover {
+  cursor: pointer;
+  transform: scale(0.95, 0.95);
+}
+.topCreators .container .cardV2 .card img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+.topCreators .container .cardV2 .card .card__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+.topCreators .container .cardV2 .card .card__content h4 {
+  color: white;
+}
+.topCreators .container .cardV2 .card .card__content p {
+  color: #9b9898;
+}
+.topCreators .container .cardV3 {
+  padding-top: 30px;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: auto;
+}
+.topCreators .container .cardV3 .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  width: 22%;
+  height: 230px;
+  transition-duration: 0.6s;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.topCreators .container .cardV3 .card:hover {
+  cursor: pointer;
+  transform: scale(0.95, 0.95);
+}
+.topCreators .container .cardV3 .card img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+.topCreators .container .cardV3 .card .card__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+.topCreators .container .cardV3 .card .card__content h4 {
+  color: white;
+  width: 100%;
+}
+.topCreators .container .cardV3 .card .card__content p {
+  color: #9b9898;
+  width: 100%;
 }
 
 .mushroom {
